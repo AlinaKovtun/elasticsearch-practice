@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'rspec-rails'
 
+gem 'elasticsearch-model', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
+gem 'elasticsearch-rails', git: 'git://github.com/elastic/elasticsearch-rails.git', branch: 'master'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
